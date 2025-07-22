@@ -12,6 +12,8 @@ sites:
     url: https://is-not-a.dev
   - name: localplayer.dev
     url: https://localplayer.dev
+  - name: open-comm.org
+    url: https://open-comm.org
   - name: CLA
     url: https://cla-assistant.io/
 

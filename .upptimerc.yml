@@ -1,36 +1,28 @@
-# Change these first
-owner: open-domains # Your GitHub organization or username, where this repository lives
-repo: status # The name of this repository
+owner: open-domains
+repo: status
 
 sites:
-  - name: Google
-    url: https://www.google.com
-  - name: Wikipedia
-    url: https://en.wikipedia.org
-  - name: Hacker News
-    url: https://news.ycombinator.com
-  - name: Test Broken Site
-    url: https://thissitedoesnotexist.koj.co
-  - name: IPv6 test
-    url: forwardemail.net
-    port: 80
-    check: "tcp-ping"
-    ipv6: true
+  - name: is-a-fullstack.dev
+    url: https://is-a-fullstack.dev
+  - name: is-cool.dev
+    url: https://is-cool.dev
+  - name: is-local.org
+    url: https://is-local.org
+  - name: is-not-a.dev
+    url: https://is-not-a.dev
+  - name: localplayer.dev
+    url: https://localplayer.dev
 
 status-website:
-  # Add your custom domain name, or remove the `cname` line if you don't have a domain
-  # Uncomment the `baseUrl` line if you don't have a custom domain and add your repo name there
   cname: status.open-domains.net
-  # baseUrl: /your-repo-name
-  logoUrl: https://raw.githubusercontent.com/upptime/upptime.js.org/master/static/img/icon.svg
-  name: OpenDomains
-  introTitle: "**OpenDomains** is the open-source subdomain provider, powered entirely by GitHub and Cloudflare."
-  introMessage: This is a sample status page which uses **real-time** data from our [GitHub repository](https://github.com/upptime/upptime). No server required — just GitHub Actions, Issues, and Pages. [**Get your own for free**](https://github.com/upptime/upptime)
+  logoUrl: https://raw.githubusercontent.com/open-domains/website/main/static/logo.svg
+  name: Open‑Domains
+  introTitle: "**Open‑Domains** — free wildcard subdomains for personal & open‑source projects."
+  introMessage: Pick a domain (e.g. `yourname.is-cool.dev`) and just start using it—no signup needed. Powered by GitHub Actions & Cloudflare DNS.
   navbar:
     - title: Status
       href: /
+    - title: Domains List
+      href: https://open-domains.net
     - title: GitHub
-      href: https://github.com/$OWNER/register
-
-# Upptime also supports notifications, assigning issues, and more
-# See https://upptime.js.org/docs/configuration
+      href: https://github.com/open-domains

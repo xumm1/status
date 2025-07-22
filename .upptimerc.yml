@@ -12,6 +12,8 @@ sites:
     url: https://is-not-a.dev
   - name: localplayer.dev
     url: https://localplayer.dev
+  - name: CLA
+    url: https://cla-assistant.io/
 
 status-website:
   cname: status.open-domains.net

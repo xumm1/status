@@ -18,7 +18,7 @@ sites:
     url: https://cla-assistant.io/
 
 status-website:
-  cname: status.open-domains.net
+  status.open-domains.net
   logoUrl: https://raw.githubusercontent.com/open-domains/website/main/static/logo.svg
   name: Open‑Domains
   introTitle: "**Open‑Domains** — free wildcard subdomains for personal & open‑source projects."
